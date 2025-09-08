@@ -6,9 +6,11 @@ public class Method2 {
 
         Student student2 = createStudent("학생2", 16,80);
 
+        Student student3 = createStudent("학생3", 19,95);
 
         printStudent(student1);
         printStudent(student2);
+        printStudent(student3);
     }
 
     static Student createStudent(String name, int age, int grade){
